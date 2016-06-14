@@ -1,0 +1,694 @@
+/* The beginning of Team photos*/
+
+@media only screen and (min-width: 1800px) {
+
+	.team-photos figure {
+		height: 345px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.team-photos figure {
+		height: 250px;
+	}
+
+	.team-photos {
+		margin-top: 50px;
+	}
+
+	.team-bottom-circle-menu {
+		margin-top: 40px;
+	}
+
+	.team-social a {
+		height: 36.57px;
+	}
+
+	@media only screen and (max-width: 1000px) {
+
+	.team-photos figure {
+		width: 40%;
+		height: 300px;
+	}
+
+	#photo1, #photo3 {
+		margin-left: 7%;
+	}
+
+	#photo1, #photo3 {
+		margin-right: 6%;
+	}
+
+	#photo2, #photo4 {
+		margin-right: 0;
+	}
+
+	#photo3, #photo4 {
+		margin-top: 25px;
+	}
+
+}
+
+@media only screen and (max-width: 670px) {
+	.team-photos figure {
+		height: 250px;
+	}
+
+}
+
+@media only screen and (max-width: 550px) {
+		.team-photos figure {
+		height: 200px;
+	}
+
+	.team-photos {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+		.team-photos figure {
+		height: 150px;
+	}
+
+	.team-photos {
+		font-size: 85%;
+		margin-top: 40px;
+	}
+	
+	.team-social {
+		bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.team-photos figure {
+		width: 270px;
+		height: 300px;
+	}
+
+	#photo1, #photo3 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#photo2 {
+		margin-top: 25px;
+	}
+
+	.team-social {
+		bottom: 7.67%;
+	}
+}
+
+/* The end of Team photos*/
+
+/*The beginning of the intersection regulation*/
+
+@media only screen and (max-width: 800px) {
+	#word-features, #word-works, #words-meet-our-team, #words-some-fun-facts, #lets-discuss {
+		padding-top: 0;
+	}
+
+	.fun-facts {
+		margin-top: 20px;
+	}
+}
+
+/*The end of the intersection regulation*/
+
+/*The beginning of Discuss*/
+
+@media only screen and (max-width: 1160px) {
+	.address {
+		float: none;
+		clear: right;
+		font-size: 150%;
+	}
+
+	form {
+	margin: 30px 0 0;
+	margin-top: 30px;
+	}
+
+	.form-social {
+		margin-top: 45px;
+		margin-right: 10px;
+	}
+
+	.address p:first-child {
+		margin-bottom: 13px;
+	}
+
+	form {
+		width: 85%;
+	}
+
+	fieldset {
+		width: 100%;
+	}
+
+	.text-messege {
+		padding-top: 10px;
+		width: 100%;
+	}
+
+	.text-email, .text-name {
+		margin-top: 6px;
+		width: 445px;
+	}
+
+	.address, form {
+		margin-left: 7.5%; 
+	}
+
+	form p {
+		margin-bottom: 5px;
+	}
+
+	.discuss-container {
+		margin-bottom: 80px;
+	}
+
+}
+
+@media only screen and (max-width: 880px) {
+	.form-social {
+		width: 295px;
+		height: 23px;
+		float: none;
+		margin: 0 auto 45px;
+		margin-top: 270px;
+		clear: both;
+	}
+
+	.form-social div {
+		display: inline-block;
+	}
+
+	.form-social div:not(.form-social5) {
+	margin-right: 36px;
+	}
+
+	fieldset {
+		margin-right: 0;
+	}
+
+	.address {
+		font-size: 120%;
+	}
+
+	.discuss-container {
+		margin-bottom: 60px;
+	}
+
+	.send-messege {
+		margin-bottom: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 580px) {
+	.text-email, .text-name, .text-messege {
+		width: 100%;
+	}
+
+	.address {
+		font-size: 100%;
+	} 
+
+	.text-messege {
+		margin-bottom: 35px;
+	}
+
+	.send-messege {
+		font-size: 80%;
+	}
+
+	.address, form {
+		margin-left: 10px; 
+	}
+
+	form {
+		width: 95%;
+	}
+
+	.discuss-container {
+		margin-bottom: 0;
+	}
+
+	.form-social {
+		width: 255px;
+		margin-bottom: 10px;
+	}
+
+	.form-social div:not(.form-social5) {
+		margin-right: 26px;
+	}
+
+	.map {
+		display: none;
+	}
+}
+
+/*The end of Discuss*/
+
+/*The beginning of the map*/
+
+@media only screen and (max-width: 800px) {
+	.map {
+		height: 130px;
+	}
+}
+
+/*The end of the map*/
+
+/*The beginning of Fun facts buttons*/
+
+@media only screen and (max-width: 940px)  {
+	.some-fun-facts-buttons {
+		width: 711px;
+	}
+
+	.button1, .button2, .button3 {
+	margin-right: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 745px) {
+	.some-fun-facts-buttons {
+		width: 611px;
+		font-size: 80%;
+	}
+
+		.some-fun-facts-buttons > div > div {
+		width: 120px;
+		height: 120px;
+	}
+
+	.button1, .button2, .button3 {
+	margin-right: 40px;
+	}
+
+	.fun-facts {
+		padding-bottom: 80px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+		.some-fun-facts-buttons {
+		width: 505px;
+		font-size: 70%;
+	}
+
+	.some-fun-facts-buttons > div > div {
+		width: 100px;
+		height: 100px;
+	}
+
+	.button1, .button2, .button3 {
+	margin-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.some-fun-facts-buttons {
+		width: 403px;
+		font-size: 60%;
+	}
+
+	.some-fun-facts-buttons > div > div {
+		width: 80px;
+		height: 80px;
+	}
+
+	.button1, .button2, .button3 {
+	margin-right: 20px;
+	}
+
+	.fun-facts {
+		padding-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	.some-fun-facts-buttons {
+		width: 299px;
+		font-size: 85%;
+	}
+
+	.some-fun-facts-buttons > div > div {
+		width: 120px;
+		height: 120px;
+	}
+
+	.button1, .button3 {
+	margin-right: 50px;
+	}
+
+	.button2, .button4 {
+		margin-right: 0;
+	}
+
+	.button1, .button2 {
+		margin-bottom: 20px; 
+	}
+
+	.fun-facts {
+		background: #122434;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	.some-fun-facts-buttons {
+		width: 251px;
+		font-size: 80%;
+	}
+
+	.some-fun-facts-buttons > div > div {
+		width: 100px;
+		height: 100px;
+	}
+
+	.button1, .button3 {
+	margin-right: 30px;
+	}
+}
+
+/*The end of Fun facts buttons*/
+
+/*The beginning of works photos*/
+
+@media only screen and (max-width: 1221px) {
+	.works-photos div {
+		height: 225px;
+	}
+}
+
+@media only screen and (max-width: 921px) {
+	.works-photos div {
+		height: 168.75px;
+	}
+}
+
+@media only screen and (max-width: 696px) {
+	.works-photos div {
+		height: 127px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.works-photos div {
+		width: 50%;
+		height: 150px;
+	}
+
+	.works-photo3, .works-photo4 {
+		margin-top: -4px;
+	}
+}
+
+/*The end of works photos*/	
+
+
+
+/*The beginning of works menu*/
+
+@media only screen and (max-width: 570px) {
+	.works-menu {
+		width: 430px;
+		height: 24px;
+		margin-top: 30px;
+	}
+
+	.works-menu div {
+		font-size: 80%;
+		padding: 3px 10px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.works-menu {
+		width: 353px;
+		height: 21px;
+		margin-top: 20px;
+	}
+
+	.works-menu div {
+		font-size: 75%;
+		padding: 2px 6px;
+	}
+
+	.works-menu div:not(#works-menu5) {
+		margin-right: 5px;
+	}
+
+}
+
+@media only screen and (max-width: 380px) {
+	.works-menu {
+		width: 298px;
+		height: 18px;
+		margin-top: 15px;
+	}
+
+	.works-menu div {
+		font-size: 65%;
+		padding: 1px 4px;
+	}
+
+	.works-menu div:not(#works-menu5) {
+		margin-right: 5px;
+	}
+}
+
+/*The end of works menu*/
+
+/*The beginning of Features menu*/
+
+@media only screen and (max-width: 958px) {
+	#Developement, #Branding, #Consulting { 
+	width: 31%;
+	margin-left: 2%; 
+	}
+ 	
+ 	.menu {
+ 		font-size: 90%;
+ 	}
+}
+
+@media only screen and (max-width: 588px) {
+	#Developement, #Branding, #Consulting {
+		width: 100%;
+		float: none;
+		height: 107px;
+		margin-left: 0;
+		padding-left: 5px; 
+	}
+
+	#Developement, #Branding {
+		margin-bottom: 10px;
+	}
+
+	#menu1, #menu2, #menu3 {
+		width: 40px;
+		height: 110px;
+		float: left;
+		margin-right: 5%;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 322px) {
+	#Developement, #Branding {
+		margin-bottom: 25px;
+	}
+
+	.menu {
+ 		margin-top: 40px;
+ 	}
+}
+
+/*The end Features menu*/
+
+/*The beginning of header*/
+
+@media only screen and (max-width: 980px) {
+	.Brandy {
+		margin: 10px 10px 30px 10px;
+	}
+
+	.Brandy, .tag-line {
+		float: left;
+	}
+
+	.Brandy {
+		margin-bottom: 30px;
+	}
+
+	.tag-line {
+		margin-top: 21px;
+	}
+
+	nav {
+		position: static;
+		margin: 0 auto 18px;
+		font-size: 100%;
+		width: 381px;
+		clear: both;
+		margin-bottom: 1px;
+	}
+
+	nav ul li {
+		padding-top: 5px;
+	}
+
+	.for-header {
+		background: left/100% 100% no-repeat url("../Images/header.bg.png");
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+	.Meet-Brandi {
+		font-size: 80%;
+		top: 30%;
+	}
+	.logo {
+		height: 500px;
+	}
+
+	.social {
+		bottom: 3%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.Meet-Brandi {
+		font-size: 60%;
+		top: 30%;
+	}
+	.logo {
+		height: 300px;
+	}
+
+	.social {
+		bottom: 3%;
+		left: 40.5%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.Meet-Brandi {
+		font-size: 50%;
+		top: 30%;
+	}
+	.logo {
+		height: 200px;
+	}
+
+	.social {
+		bottom: 1%;
+		left: 37.5%;
+	}
+
+	.social div {
+			width: 10px;
+			height: 10px;
+	}
+
+	.social div img {
+		height: 100%;
+	}
+
+	#line-3 {
+	padding-top: 12px;
+	}
+	
+	.right-circle-menu {
+		width: 7px;
+		height: 37px;
+	}
+
+	.right-circle-menu div {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid rgba(51,59,63,.98);
+	margin-bottom: 8px;
+
+	}
+
+	.Brandy, .tag-line {
+	display: none;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.social {
+		left: 30.5%;
+	}
+
+	.Meet-Brandi {
+		font-size: 40%;
+		top: 30%;
+	}
+
+	.for-header {
+		background: #0e362c;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	nav {
+		font-size: 81.25%;
+		width: 263px;
+	}
+
+	nav ul li:not(#contact) {
+	margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 322px) {
+	nav {
+		margin: 0 auto;
+		font-size: 70%;
+		width: 216px;
+	}
+
+	nav ul li:not(#contact) {
+		margin-right: 10px;
+	}
+
+	.Brandy {
+		width: 60px;
+	}
+
+	.tag-line {
+		width: 105px;
+		font-size: ;
+		padding-left: 10px;
+	}
+
+/*The end of header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
